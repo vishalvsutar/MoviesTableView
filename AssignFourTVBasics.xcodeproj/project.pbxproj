@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		BA205939293D268C004E23E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA205938293D268C004E23E6 /* AppDelegate.swift */; };
 		BA20593B293D268C004E23E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20593A293D268C004E23E6 /* SceneDelegate.swift */; };
-		BA20593D293D268C004E23E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20593C293D268C004E23E6 /* ViewController.swift */; };
 		BA205940293D268C004E23E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA20593E293D268C004E23E6 /* Main.storyboard */; };
 		BA205942293D268E004E23E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA205941293D268E004E23E6 /* Assets.xcassets */; };
 		BA205945293D268E004E23E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA205943293D268E004E23E6 /* LaunchScreen.storyboard */; };
@@ -17,13 +16,13 @@
 		BA235DEC293EB9AE0064CBC0 /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA235DEB293EB9AE0064CBC0 /* Movies.swift */; };
 		BA235DEE293EBC6E0064CBC0 /* MoviesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA235DED293EBC6E0064CBC0 /* MoviesList.swift */; };
 		BA235DF2293EBF140064CBC0 /* MoviesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA235DF1293EBF140064CBC0 /* MoviesTableViewController.swift */; };
+		BA6C1E38293EFBBC00F9CA2F /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6C1E37293EFBBC00F9CA2F /* MovieDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BA205935293D268C004E23E6 /* AssignFourTVBasics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssignFourTVBasics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA205938293D268C004E23E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA20593A293D268C004E23E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BA20593C293D268C004E23E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BA20593F293D268C004E23E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA205941293D268E004E23E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA205944293D268E004E23E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -32,6 +31,7 @@
 		BA235DEB293EB9AE0064CBC0 /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
 		BA235DED293EBC6E0064CBC0 /* MoviesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesList.swift; sourceTree = "<group>"; };
 		BA235DF1293EBF140064CBC0 /* MoviesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTableViewController.swift; sourceTree = "<group>"; };
+		BA6C1E37293EFBBC00F9CA2F /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +66,6 @@
 			children = (
 				BA205938293D268C004E23E6 /* AppDelegate.swift */,
 				BA20593A293D268C004E23E6 /* SceneDelegate.swift */,
-				BA20593C293D268C004E23E6 /* ViewController.swift */,
 				BA20593E293D268C004E23E6 /* Main.storyboard */,
 				BA20594C293D64A2004E23E6 /* EditTableViewCell.swift */,
 				BA235DEB293EB9AE0064CBC0 /* Movies.swift */,
@@ -75,6 +74,7 @@
 				BA205946293D268E004E23E6 /* Info.plist */,
 				BA235DED293EBC6E0064CBC0 /* MoviesList.swift */,
 				BA235DF1293EBF140064CBC0 /* MoviesTableViewController.swift */,
+				BA6C1E37293EFBBC00F9CA2F /* MovieDetailViewController.swift */,
 			);
 			path = AssignFourTVBasics;
 			sourceTree = "<group>";
@@ -152,9 +152,9 @@
 			files = (
 				BA235DF2293EBF140064CBC0 /* MoviesTableViewController.swift in Sources */,
 				BA235DEC293EB9AE0064CBC0 /* Movies.swift in Sources */,
-				BA20593D293D268C004E23E6 /* ViewController.swift in Sources */,
 				BA235DEE293EBC6E0064CBC0 /* MoviesList.swift in Sources */,
 				BA205939293D268C004E23E6 /* AppDelegate.swift in Sources */,
+				BA6C1E38293EFBBC00F9CA2F /* MovieDetailViewController.swift in Sources */,
 				BA20593B293D268C004E23E6 /* SceneDelegate.swift in Sources */,
 				BA20594D293D64A2004E23E6 /* EditTableViewCell.swift in Sources */,
 			);

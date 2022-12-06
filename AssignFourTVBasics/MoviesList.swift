@@ -20,5 +20,20 @@ class MoviesList{
             allMovies.append(Movies(movieName: movieNames[movieNameIndex]))
         }
     }
+    func deleteMovie(index: Int)
+    {
+        allMovies.remove(at: index)
+    }
+    func moveContact(from fromIndex:Int, to toIndex:Int)
+    {
+        let temp = allMovies[fromIndex]
+        allMovies.remove(at: fromIndex)
+        allMovies.insert(temp, at: toIndex)
+    }
+    func createMovie(movieName: String)-> Movies{
+        let movie = Movies(movieName: movieName)
+        allMovies.append(movie)
+        return movie
+    }
 }
 
